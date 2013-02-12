@@ -1,0 +1,234 @@
+/* This file is used to define colors for ChiliProject. They are kept   */
+/* separate in order to make it easy for someone to create a new theme. */
+/*                                                                      */
+/* Some default colors are defined in application.css, mostly grays and */
+/* logical ones (e.g. errors are red).                                  */
+/*                                                                      */
+/* Author: Christian Daehn (c) ASinteg GmbH - Free to use & modify      */
+
+@import url(../../../stylesheets/application.css);
+
+html {overflow-y:scroll; -webkit-text-size-adjust: 100%;  }
+
+body, #main {
+    background-color: #fff;
+}
+
+h1 {
+    color: #EE5522;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #EE5522;
+}
+
+h2, .wiki .h1 {
+    color: #EE5522;
+}
+
+div#wrapper div#main div#content div.wiki h1, div#wrapper div#main div#content div.wiki h2 {
+    border: none;
+}
+
+a, a:link, a:visited, #sidebar a, #sidebar a:link, #sidebar a:visited, :link:focus, *:visited:focus, *:link, *:visited, *:link:active, *:visited:active {
+    background-color: transparent;
+    color: #0066CC;
+    font-weight: normal;
+}
+
+div#wrapper div#main div#content div.contents ul li {
+    padding-left: 15px;
+}
+
+#breadcrumb a, #breadcrumb {
+    color: #EE5522;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+:link:focus, *:visited:focus, *:link, *:visited, *:link:active, *:visited:active {
+    text-decoration: none;
+}
+
+:link:hover, *:visited:hover {
+    background-color: transparent;
+    background-image: none;
+    color: #6666CC;
+}
+
+:link:hover img, *:visited:hover img {
+    background-color: transparent;
+}
+
+table.cal td.today {
+    background: none repeat scroll 0 0 #DFFFDD;
+}
+
+div.issue {
+    background: none repeat scroll 0 0 #FFFFDD;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #DDD;
+}
+
+table td {
+    padding: 0 2px 2px;  /* fixes gantt table */
+}
+.title-bar .title-bar-actions .contextual a.icon {
+    color: #000000;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.title-bar .contextual {
+    position: relative;
+    top: -1px;
+    right: -100px;
+}
+
+#main-menu li {
+    background-color: #F6F6FF;
+    min-height: 15px;
+}
+
+#header li.drop-down li > a:hover, #main-menu li a.selected, #main-menu li a:hover {
+    background-color: #A8AAC2;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF; 
+}
+
+#header li > a:hover, #header li.drop-down > a:hover {
+    background: url("../images/background_top_navigation_hover.png") repeat-x scroll left top transparent;
+    display: block;
+}
+
+.box, .nodata, .warning, div.flash.error, #errorExplanation {
+    border-radius: 5px 5px 5px 5px;
+}
+
+#content {
+    font-size: 12px;
+}
+
+#content .mypage-box table.cal th {
+    background: none repeat scroll 0 0 #EEEEEE;
+}
+
+#header {
+    background: none repeat scroll 0 0 #222222;
+    height: 50px;
+}
+
+#search {
+    float: right;
+}
+
+#header .search_field {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#header ul {
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+#header li > a {
+    height: 30px;
+    text-decoration: none;
+}
+
+#header li.drop-down li > a {
+    background-color: #FFF8F0;
+    margin-left: 5px;
+    padding: 3px 5px 3px 5px;
+}
+
+#header li > ul {
+    background-color: #FFF8F0;
+    left: 0px;
+    top: 21px;
+}
+
+#header li li {
+    border-color: #FFF0F0;
+}
+
+#top-menu-items {
+    float: left;
+    padding-left: 10px;
+}
+
+#account-nav {
+    background: url("../images/background_top_navigation.png") repeat-x scroll left top transparent;
+    display: block;
+}
+
+html body.theme-Asinteg div#wrapper div#main div#content table tbody tr td {
+    vertical-align: middle;
+}
+
+#logo {
+    background-image: url("../images/header_dark.png"); 
+    background-repeat: no-repeat; 
+    background-position: 5px 3px;
+    float: right;
+    width: 100px;
+    color: transparent; /* hide logo text */
+    overflow: hidden;
+}
+
+#logo a, #logo a:hover, #logo a:visited {
+    color: transparent; /* hide logo text */
+}
+
+    
+#content table.issues td, #content table th {
+    padding: 1px;
+}
+
+dd {
+    margin-left: 30px;
+}
+
+dt {
+    margin-top: 15px;
+}
+
+html body.theme-Asinteg div#wrapper div#main div#content table tbody tr td {
+    vertical-align: top;
+}
+
+div.mypage-box table.cal tbody tr td.even div.issue {
+    padding: 5px;
+}
+
+#project-todos ul.root li {
+    padding: 0;
+}
+
+#project-todos ul.root li ul.children {
+    padding: 0;
+}
+
+#project-todos ul li {
+    list-style: none;
+    padding: 0;
+}
+
+/* MOBILE TWEAKS */
+@media only screen and (max-device-width: 1024px) {
+	#sidebar {overflow: auto;} /* Sidebar is only scrollable in portable devices, you can change that */
+}
+/* iPhone */
+@media only screen and (max-width: 480px) {
+    #header { width: 100%; font-size: 10px; }
+    ul#account-nav li a.help, ul#account-nav li a.home { display: none; }
+    #side-container, #sidebar { width: 440px; float: left; position: relative; clear: both; }
+    #main-menu ul li a { text-align: center; font-size: 130%; width: 400px; }
+    #content, #main.nosidebar #content.nosidebar { margin: 0; left: 0px; width: 90%; float: left; position: relative; clear: both; }
+    #content .splitcontentleft, #content .splitcontentright { position: relative; float: left; clear: both; }
+    #top-menu-items li ul li { height: 30px; font-size: 150%; }
+    #login-form form { width: 350px; }
+    #login-form input#username, #login-form input#password { width: 180px; }
+}
