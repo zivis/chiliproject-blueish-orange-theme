@@ -175,6 +175,7 @@ html body.theme-Asinteg div#wrapper div#main div#content table tbody tr td {
     float: right;
     width: 100px;
     color: transparent; /* hide logo text */
+    overflow: hidden;
 }
 
 #logo a, #logo a:hover, #logo a:visited {
