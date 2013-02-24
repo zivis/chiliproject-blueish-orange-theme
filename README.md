@@ -13,13 +13,14 @@ Features:
 
 Installation:
 
-1. Copy the directory /orange/ to your ChiliProject installation /chiliproject/public/themes/
-2. Change the header logo by an own PNG image of size 88x40 pixel (width may vary, 
+1. Clone this repo into your chiliproject/public/themes/ 
+2. Symlink the directory "your workingcopy"/blueish-orange/ to chiliproject/public/themes/blueish-orange
+3. Change the header logo by an own PNG image of size 88x40 pixel (width may vary, 
    but height is max 40 px!), background should be transparent!
    -> replace /chiliproject/public/themes/orange/images/header_dark.png with your logo image
-3. Change/add your own top menu bar entries by editing the theme.js
+4. Change/add your own top menu bar entries by editing the theme.js
    -> see /chiliproject/public/themes/orange/javascripts/theme.js
-4. Select/enable the theme under Administration -> Settings -> Display in the theme combo box
+5. Select/enable the theme under Administration -> Settings -> Display in the theme combo box
 
 Customizing:
 
