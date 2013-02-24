@@ -1,7 +1,7 @@
 chiliproject-blueish-orange-theme
 =========================
 
-Orange theme with responsive UI and function to add own menu entries for ChiliProject 3.x (zivi only put some blue in it…)
+This is a blue "Orange" theme (actually there's nearly nothing colored orange) with responsive UI and function to add own menu entries for ChiliProject 3.x
 
 Features:
 
