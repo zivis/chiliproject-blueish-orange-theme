@@ -15,15 +15,17 @@ body, #main {
 }
 
 h1 {
-    color: #EE5522;
+/*    color: #EE5522; */
+    color: #696969;
 }
 
 h2, h3, h4, h5, h6 {
-    color: #EE5522;
+/*    color: #EE5522; */ 
+    color: #000; 
 }
 
 h2, .wiki .h1 {
-    color: #EE5522;
+    color: #000;
 }
 
 div#wrapper div#main div#content div.wiki h1, div#wrapper div#main div#content div.wiki h2 {
@@ -41,7 +43,8 @@ div#wrapper div#main div#content div.contents ul li {
 }
 
 #breadcrumb a, #breadcrumb {
-    color: #EE5522;
+/*    color: #EE5522; */
+    color: #4682B4;
     text-decoration: none;
     font-weight: bold;
 }
@@ -86,12 +89,12 @@ table td {
 }
 
 #main-menu li {
-    background-color: #F6F6FF;
+    background-color: #87CEEB;
     min-height: 15px;
 }
 
 #header li.drop-down li > a:hover, #main-menu li a.selected, #main-menu li a:hover {
-    background-color: #A8AAC2;
+    background-color: #87CEEB; 
     border-radius: 2px 2px 2px 2px;
     color: #FFFFFF; 
 }
@@ -151,7 +154,8 @@ table td {
 }
 
 #header li li {
-    border-color: #FFF0F0;
+    border-color: #FFF0F0; 
+/*    border-color: #696969; */
 }
 
 #top-menu-items {
